@@ -52,7 +52,7 @@ const handler = (data, callback) => {
   const https = require('https')
 
   const options = {
-    hostname: 'graphql-meteor-deone.c9users.io',
+    hostname: 'meteor-votes-deone.c9users.io',
     port: 443,
     path: '/graphql',
     method: 'POST',
